@@ -25,6 +25,7 @@ header {
     background-color: var(--color-red);
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .container {
@@ -33,14 +34,13 @@ header {
     margin: 0 auto;
 }
 
-#navigation {
+nav {
     color: var(--color-white);
     display: flex;
     justify-content: space-between;
-    margin: 0px 20px 0px 20px;
 }
 
-#navigation h3 {
+nav h3 {
     display: flex;
     align-items: center;
     font-style: normal;
