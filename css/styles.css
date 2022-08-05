@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root {
+    --color-red: #F03C42;
+    --color-white: #FFFFFF;
+    --color-blue: #222374;
+    --color-black: #000000;
+    --color-grey: #CCCCCC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+header {
+    height: 100px;
+    background-color: var(--color-red);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#navigation {
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+}
+
+#navigation h3 {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.social-media a {
+    margin: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#space {
+    background-color: var(--color-blue);
+    padding: 20px;
+}
+
+#space h2 {
+    color: var(--color-white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.card-space {
+    background-color: var(--color-grey);
+    border-radius: 8px;
+    padding: 20px;
+    color: var(--color-black);
+    margin-bottom: 20px;
+}
+
+.card-space h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#sports {
+    padding: 20px;
+}
+
+#sports h2 {
+    color: var(--color-red);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.card-sports {
+    background-color: var(--color-blue);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-sports h3 {
+    color: var(--color-white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.card-sports p {
+    color: var(--color-grey);
+}
+
+footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+#footer a,
+img {
+    padding-bottom: 10px;
+}
+
+#footer p,
+address {
+    text-align: center;
+}
+
+#footer p {
+    margin-top: 20px;
+}
